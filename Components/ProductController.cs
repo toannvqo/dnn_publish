@@ -13,6 +13,7 @@ namespace Christoc.Modules.DNNModule1.Components
             Product p;
             using (IDataContext ctx = DataContext.Instance())
             {
+                //
                 // comment
                 //comment afasffsdfasdf
                 Console.WriteLine("hello world");
