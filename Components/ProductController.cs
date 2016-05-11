@@ -15,6 +15,7 @@ namespace Christoc.Modules.DNNModule1.Components
             {
                 Console.WriteLine("new branch");
                 Console.WriteLine("shshshshshs");
+                // fasdfasfd
                 var rep = ctx.GetRepository<Product>();
                 p = rep.GetById(productId);
             }
