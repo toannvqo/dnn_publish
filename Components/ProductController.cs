@@ -13,8 +13,6 @@ namespace Christoc.Modules.DNNModule1.Components
             Product p;
             using (IDataContext ctx = DataContext.Instance())
             {
-                // comment
-                Console.WriteLine("hello world");
                 Console.WriteLine("hello world");
                 var rep = ctx.GetRepository<Product>();
                 p = rep.GetById(productId);
